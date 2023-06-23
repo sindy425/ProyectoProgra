@@ -10,11 +10,11 @@ app.listen(port, function () {
 
 var Connection = require('tedious').Connection;
 var config = {
-    server: 'sddd\SQLEXPRESS01',
+    server: 'SINDY\SQLEXPRESS01',
     authentication: {
         type: 'default',
         options: {
-            userName: 'SINDY\hern',
+            userName: 'SINDY\herna',
             password: 'sindy2023'
         }
 
