@@ -14,8 +14,8 @@ var config = {
     authentication: {
         type: 'default',
         options: {
-            userName: 'SINDY\herna',
-            password: 'sindy2023'
+            userName: 'sa',
+            password: '12345678'
         }
 
     },
