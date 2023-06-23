@@ -12,7 +12,7 @@ var Connection = require('tedious').Connection;
 var config = {
     server: 'SINDY\SQLEXPRESS01',
     authentication: {
-        type: 'default',
+        type: 'Windows Authentication',
         options: {
             userName: 'SINDY\herna',
             password: 'sindy2023'
